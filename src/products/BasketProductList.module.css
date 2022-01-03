@@ -1,0 +1,16 @@
+.items{
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 500px){
+    .items{
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (min-width: 500px){
+    .items{
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.empty_favorite{
+    display: grid;
+    grid-template-rows: 270px 50px 60px 40px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 850px){
+    .empty_favorite {
+        grid-template-rows: 270px 50px 80px 40px;
+    }
+ }
+ @media screen and (max-width: 376px){
+     .empty_favorite{
+         margin-top: 15px;
+         grid-template-rows: 270px 70px 105px 40px;
+     }
+ }
+.empty_favorite_photo{
+    display: flex;
+    justify-content: center;
+}
+
+.empty_favorite_heart{
+    width: 400px;
+    height: 270px;
+}
+@media screen and (max-width: 376px){
+    .empty_favorite_heart{
+        width: 375px;
+    }
+}
+.empty_favorite_title{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #193DB0;
+    padding-top: 10px;
+}
+@media screen and (max-width: 376px){
+    .empty_favorite_title{
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+.empty_favorite_text{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.empty_favorite_text p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    text-align: center;
+    color: #86705A;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.empty_favorite_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.start_shopping_btn{
+    background-color: #193DB0;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+
+.favorite_page_title{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-template-rows: 80px 1fr;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: 1px solid beige;
+}
+@media screen and (max-width: 750px){
+    .favorite_page_title{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+ }
+
+
+.favorite_page_title p{
+    margin: 0;
+    color: #86705A;
+    font-size: 20px;
+    font-weight: 500;
+}

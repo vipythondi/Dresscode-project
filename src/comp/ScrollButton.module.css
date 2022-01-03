@@ -1,0 +1,38 @@
+.scroll_box{
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 110px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #1F49B6;
+    background-color: white;
+}
+@media screen and (max-width: 850px){
+    .scroll_box{
+        bottom: 160px;
+    }
+    
+}
+.scroll_box:hover{
+    background-color: #1F49B6;
+}
+.scroll_box:hover .white_photo{
+    display: block;
+}
+.scroll_box:hover .black_photo{
+    display: none;
+}
+
+.black_photo{
+    display: block;
+    height: 15px;
+    width: 15px;
+}
+.white_photo{
+    display: none;
+    height: 15px;
+    width: 15px;
+}

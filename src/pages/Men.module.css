@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.man_page{
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+.men_page_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: 1px solid beige;
+}
+@media screen and (max-width: 750px){
+    .men_page_title{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+ }
+.men_page_title p{
+    margin: 0;
+    color: #86705A;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.men_page_title_filter{
+    display: flex;
+}
+
+.men_page_title_filter p{
+    text-transform: capitalize;
+    padding-right: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 376px){
+    .men_page_title_filter p{
+        display: none;
+    }
+}
+.options{
+    margin-left: 20px;
+    outline: none;
+}
+.men_page_photo{
+    height: 30px;
+    width: 30px;
+}

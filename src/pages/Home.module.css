@@ -1,0 +1,47 @@
+.home_page{
+   display: flex;
+   position: relative;
+   align-items: center;
+}
+
+.banner_image{
+    height: 100vh;
+    width: 98.9vw;
+    object-fit: cover;
+}
+
+.slide{
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide-active{
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.arrow_box_back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    background: white;
+    left: 10px;
+}
+.arrow_box_next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 10px;
+    background: white;  
+}
+.arrow{
+    width: 25px;
+    height: 25px;
+}
